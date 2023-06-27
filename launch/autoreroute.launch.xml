@@ -6,8 +6,6 @@
     <arg name="carla_port" default="2000"/>
     <arg name="waypoints_file" default="/home/artemis/personal_autoware_ws/src/sim_helper/auto_reroute_py/config/waypoints.yaml"/>
     <arg name="min_distance" default="50.0"/>
-    <!-- <arg name='goal_pose_str' default='120,-2,0,0,0,0'/> -->
-    <!-- <node pkg="auto_reroute_py" exec="auto_reroute" name="auto_reroute" namespace="extra_script"> -->
     <node pkg="auto_reroute_py" exec="auto_reroute" name="auto_reroute">
         <param name="is_random_route" value="$(var is_random_route)" type="bool"/>
         <param name="carla_host" value="$(var carla_host)"/>
