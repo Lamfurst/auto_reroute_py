@@ -1,0 +1,34 @@
+@startuml
+partition "Auto_Reroute"{
+partition "TF Listener" {
+  "Check ego_vehicle's distance to goal" --> if "Dist < MIN_DIST ?" then 
+    --> [Yes] "Send new pose"
+  else
+    -up-> [No] "Check ego_vehicle's distance to goal"
+
+  "Send new pose" --> "Check ego_vehicle's distance to goal"
+}
+}
+
+partition Autoware {
+  partition "Planning"{
+    "Send new pose" -up-> [/planning/mission_planning/goal]"mission_planner"
+  }
+}
+partition "Auto_Reroute"{
+partition "Planning State Callback"{
+  "mission_planner" -up-> [/autoware/state] "Check planning state" 
+  "Check planning state"   --> if "WAITING_FOR_ENGAGE?" then
+    --> [Yes] "Send Engage Request"
+    "Send Engage Request" --> "Check planning state" 
+  else
+    --> [No] "Check planning state" 
+}
+}
+
+partition Autoware {
+  partition "Control"{
+    "Send Engage Request" --> [/api/external/set/engage] "vehicle_cmd_gate"
+  }
+}
+@enduml
