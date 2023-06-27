@@ -2,14 +2,7 @@
 
 This package provides a simple implementation to send waypoints to the Autoware-CARLA simulator in order to achieve loop running in a specific map.
 
-![Class Diagram](https://github.com/Lamfurst/auto_reroute_py/blob/main/demo/flowchart.puml)
-
-![](https://github.com/Lamfurst/auto_reroute_py/blob/main/demo/loop_demo_compress.mp4)
-
-<video width="640" height="360" controls>
-  <source src="https://www.example.com/video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Lamfurst/auto_reroute_py/main/demo/flowchart.puml)
 
 ## Prerequisites
 
