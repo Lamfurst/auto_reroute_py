@@ -1,0 +1,46 @@
+# - waypoint:
+#     position: [30, -2, 0]
+#     orientation_rpy: [0, 0, 0]
+# - waypoint:
+#     position: [150, -2, 0]
+#     orientation_rpy: [0, 0, 0]
+# - waypoint:
+#     position: [300, -2, 0]
+#     orientation_rpy: [0, 0, 0]
+# - waypoint:
+#     position: [370, -2, 0]
+#     orientation_rpy: [0, 0, 0]
+# - waypoint:
+#     position: [392.5, -105, 0]
+#     orientation_rpy: [0, 0, -1.57]
+# - waypoint:
+#     position: [392.5, -200, 0]
+#     orientation_rpy: [0, 0, -1.57]
+# - waypoint:
+#     position: [392.5, -300, 0]
+#     orientation_rpy: [0, 0, -1.57]
+# - waypoint:
+#     position: [352, -326.65, 0]
+#     orientation_rpy: [0, 0, -3.14]
+- waypoint:
+    position: [300, -326.65, 0]
+    orientation_rpy: [0, 0, -3.14]
+# - waypoint:
+#     position: [200, -326.65, 0]
+#     orientation_rpy: [0, 0, -3.14]
+# - waypoint:
+#     position: [100, -326.65, 0]
+#     orientation_rpy: [0, 0, -3.14]
+- waypoint:
+    position: [2.2, -310, 0]
+    orientation_rpy: [0, 0, 1.57]
+# - waypoint:
+#     position: [2.2, -200, 0]
+#     orientation_rpy: [0, 0, 1.57]
+# - waypoint:
+#     position: [2.2, -100, 0]
+#     orientation_rpy: [0, 0, 1.57]
+# - waypoint:
+#     position: [2.2, -10, 0]
+#     orientation_rpy: [0, 0, 1.57]
+# Additional waypoints...
