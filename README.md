@@ -4,6 +4,10 @@ This package provides a simple implementation to send waypoints to the Autoware-
 
 ![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/Lamfurst/auto_reroute_py/main/demo/flowchart.puml)
 
+
+https://github.com/Lamfurst/auto_reroute_py/assets/66519297/37beca93-64b0-4056-a517-9b69166341dd
+
+
 ## Prerequisites
 
 Before using this package, ensure that you have the following prerequisites installed:
