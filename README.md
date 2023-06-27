@@ -38,9 +38,7 @@ Before using this package, ensure that you have the following prerequisites inst
     ```shell
     ./launch_script.sh
     ```
-3. If you want to spawn traffic in the carla, run the following command
+3. If you want to spawn random traffic in the carla, run the following command
     ```shell
     ./launch_script.sh true
     ```
-
-Generate a uml for my auto_reroute pakcage based on my description here: 1. start a loop for tf listener 2. If the current goal_pose is none then send the first goal pose  3. If the current the goal_pose is not none and if the distance between ego_vehicle's base_link and goal pose is less than min_distance then reads the waypoint from waypoints.yaml file. then send the goal pose. 4. All sending goal  pose process can be divided into a. get 
