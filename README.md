@@ -3,6 +3,7 @@
 This package provides a simple implementation to send waypoints to the Autoware-CARLA simulator in order to achieve loop running in a specific map.
 
 <div hidden>
+```
 @startuml
 partition "Auto_Reroute"{
 partition "TF Listener" {
@@ -37,7 +38,10 @@ partition Autoware {
   }
 }
 @enduml
+```
 </div>
+
+![](/demo/autowareroute_flowchart.svg)
 
 <video width="640" height="360" controls>
   <source src="https://www.example.com/video.mp4" type="video/mp4">
