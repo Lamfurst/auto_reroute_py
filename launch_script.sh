@@ -6,8 +6,8 @@ tmux split-window -v
 # Check if traffic is true
 if [ "$TRAFFIC" == "true" ]; then
     # Run the python script to spawn vehicles
-    # tmux send-keys "python3 /home/artemis/Workspace/carla-0.9.13/PythonAPI/examples/generate_traffic.py --asynch --safe -n 50 -w 100" C-m
-    tmux send-keys "python3 /home/artemis/Workspace/carla-0.9.13/PythonAPI/examples/generate_traffic.py --asynch -n 50 -w 100" C-m
+    tmux send-keys "python3 /home/artemis/Workspace/carla-0.9.13/PythonAPI/examples/generate_traffic.py --asynch --safe -n 50 -w 100" C-m
+    # tmux send-keys "python3 /home/artemis/Workspace/carla-0.9.13/PythonAPI/examples/generate_traffic.py --asynch -n 50 -w 100" C-m
     # Delay for a few seconds
     sleep 5
 fi
