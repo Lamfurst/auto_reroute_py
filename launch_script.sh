@@ -22,4 +22,4 @@
 # launch reroute node in a new terminal
 tmux split-window -h
 tmux send-keys "source ${HOMEDIR}/sim_helper_ws/install/setup.bash" C-m
-tmux send-keys "ros2 launch launch/autoreroute.launch.xml waypoints_file:=config/waypoints.yaml" C-m
+tmux send-keys "ros2 launch launch/autoreroute.launch.xml waypoints_file:=config/waypoints.yaml carla_host:=172.17.01" C-m
